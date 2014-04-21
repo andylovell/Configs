@@ -1,0 +1,11 @@
+alias a alias
+a pd pushd
+a ll 'ls -lt | head'
+a d dirs
+a j jobs
+a h history
+a shut "sudo shutdown -r now"
+
+umask 0
+set prompt = "%{\033[31m%}%m %{\033[0;34m%}%n:%c3>%{\033[0m%} "
+setenv CLICOLOR
